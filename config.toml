@@ -1,4 +1,4 @@
-baseurl = "http://agileup.me" # Hostname (and path) to the root.
+baseurl = "https://agileup.github.io" # Hostname (and path) to the root.
 title = "agileup" # Site title.
 theme = "coder" # Set the theme.
 languagecode = "en" # The site’s language code.
