@@ -1,0 +1,72 @@
+baseurl = "http://agileup.me" # Hostname (and path) to the root.
+title = "agileup" # Site title.
+theme = "coder" # Set the theme.
+languagecode = "en" # The site’s language code.
+
+paginate = 20 # Default number of pages per page in pagination.
+canonifyurls = true # Enable to turn relative URLs into absolute.
+
+pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+disqusShortname = "agileup" # Enable or disable Disqus
+
+[params] # theme parameters
+    author = "agileup" # Author's name.
+    info = "Developer, Engineering Thinking" # Author's job title or info.
+    quote = "Anything you can imagine probably is doable"
+    description = "MK Style" # Site description.
+    keywords = "blog,developer,personal,note" # Site keywords.
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = true
+
+    # Custom CSS
+    custom_css = ["css/custom.css"]
+
+    # RTL support
+    rtl = false
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa-github"
+    weight = 1
+    url = "https://github.com/agileup/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa-twitter"
+    weight = 2
+    url = "https://twitter.com/akamk87/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/agileup/"
+[[params.social]]
+    name = "Blogger"
+    icon = "fa-blogger"
+    weight = 4
+    url = "http://agileupriser.blogspot.com/"
+[[params.social]]
+    name = "YouTube"
+    icon = "fa-youtube"
+    weight = 5
+    url = "https://www.youtube.com/channel/UCNeH2oVve26osPXan0H3k-g"
+[[params.social]]
+    name = "Instagram"
+    icon = "fa-instagram"
+    weight = 6
+    url = "https://www.instagram.com/allthesame_ko/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
