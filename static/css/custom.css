@@ -17,6 +17,11 @@ article.about a {
     font-weight: 400;
 }
 
+/* List */
+.list ul li a {
+    text-transform: none; 
+}
+
 /* Posts */
 section.post article h1, h2, h3, h4, h5, h6 {
     text-transform: none;
@@ -27,4 +32,16 @@ section.post a {
 }
 section.post code {
     line-height: 2rem;
+    padding: 2px 4px;
+    color: #d14;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+section.post .highlight code {
+    color: inherit;
+    background-color: inherit;
+    border: 0;
+}
+section.post article.note {
+    font-family: 'Nanum Myeongjo', serif;
 }
