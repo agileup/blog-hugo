@@ -5,6 +5,7 @@ languagecode = "en" # The site’s language code.
 
 paginate = 15 # Default number of pages per page in pagination
 canonifyurls = true # Enable to turn relative URLs into absolute.
+enableRobotsTXT = true
 
 pygmentsUseClasses=true
 pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
