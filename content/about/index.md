@@ -35,38 +35,38 @@ March, 2006 - February, 2012
 Toss Lab, Inc. <a href="https://www.jandi.com/" target="_blank">JANDI</a>, Seoul, Korea  
 June, 2014 - Dec, 2017  
 
-- Developed real-time messaging service with websocket and stream processing.  
-- Built high availability architecture for mobile push and integration(webhook) server.  
-- Managed operations for deployment, monitoring.
+- Developed real-time messaging service with websocket and stream processing 
+- Built high availability architecture for mobile push and integration(webhook) server  
+- Managed operations for deployment, monitoring
 
 **Web Site and Application Developer**  
 <a href="http://www.venturesquare.net/" target="_blank">VentureSquare</a>, Seoul, Korea  
 December, 2012-June, 2013  
 
-- Developed and customized wordpress multi-sites plugins and theme in PHP.  
-- Changed platform from TextCube to Wordpress. Implemented a plugin which imports to Wordpress from TTXML with maintaining author and permalink perfectly.  
-- Improved site performance 3x faster by using Varnish cache server. Increased advertising revenue by optimized SEO options.
+- Developed and customized wordpress multi-sites plugins and theme in PHP  
+- Changed platform from TextCube to Wordpress. Implemented a plugin which imports to Wordpress from TTXML with maintaining author and permalink perfectly  
+- Improved site performance 3x faster by using Varnish cache server. Increased advertising revenue by optimized SEO options
 
 **Lead Developer**  
 <a href="https://otrade.co/" target="_blank">OpenTrade</a>, Seoul, Korea  
 April-September, 2012  
 
-- Developed database-driven dynamic web applications using PHP and MySQL.
-- Created web sites, including site architecture, graphics design, HTML and CSS markup, etc.
-- Received about $200k in Seed funding after 3 months of work.
+- Developed database-driven dynamic web applications using PHP and MySQL
+- Created web sites including site architecture, graphics design, HTML and CSS markup, etc
+- Received about $200k in Seed funding after 3 months of work
 
 **Military Security Specialist, Soldier**  
 Defense Security Command, Gwacheon, Korea  
 June, 2008-May, 2010  
 
-- Implemented several Windows system applications in C/C++ by using MFC and WDK  such as network log analyzer, keyboard hooker and driver to conceal process.
+- Implemented several Windows system applications in C/C++ by using MFC and WDK  such as network log analyzer, keyboard hooker and driver to conceal process
 
 **Software Engineer, Intern**  
 Electronics and Telecommunications Research Institute, Daejeon, Korea  
 June-August, 2011  
 
-- Designed, developed web-based application for co-development management system. Created importer to database in Python from huge XML data.
-- Personally implemented features about hooking and mapping internal calls of DirectX 10 for offload computing project in C++.
+- Designed, developed web-based application for co-development management system. Created importer to database in Python from huge XML data
+- Personally implemented features about hooking and mapping internal calls of DirectX 10 for offload computing project in C++
 
 
 ### ENGINEERING PROJECT
@@ -74,14 +74,14 @@ June-August, 2011
 **OdabNote**  
 Lead Developer, for 9 months
 
-- Managed the project’s technical roadmap and execution of features and scalability.
-- Designed RESTful API server and developed Ajax-based web application in PHP and MySQL.
+- Managed the project’s technical roadmap and execution of features and scalability
+- Designed RESTful API server and developed Ajax-based web application in PHP and MySQL
 
 **Run & Bat**
 Server and Android Developer, for 6 months
 
-- Implemented android LBS application using Google Maps API.
-- Developed server and database in Python using Django and MongoDB for geospatial indexing.
+- Implemented android LBS application using Google Maps API
+- Developed server and database in Python using Django and MongoDB for geospatial indexing
 
 
 ### PERSONAL EXPERIENCE
