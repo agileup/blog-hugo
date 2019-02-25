@@ -42,6 +42,18 @@ section.post .highlight code {
     background-color: inherit;
     border: 0;
 }
+section.post article {
+    padding: 1em 0;
+}
 section.post article.note {
     font-family: 'Nanum Myeongjo', serif;
+}
+
+.cc-box {
+    padding: 1em 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.comment-box {
+    margin: 1em 0;
 }
