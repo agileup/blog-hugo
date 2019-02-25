@@ -48,12 +48,9 @@ section.post article {
 section.post article.note {
     font-family: 'Nanum Myeongjo', serif;
 }
-
 .cc-box {
-    padding: 1em 0;
+    margin: 4rem 0 0;
+    padding: 2rem 0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-}
-.comment-box {
-    margin: 1em 0;
 }

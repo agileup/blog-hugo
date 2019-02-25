@@ -35,32 +35,32 @@ disqusShortname = "agileup" # Enable or disable Disqus
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fa-github"
+    icon = "fab fa-github"
     weight = 1
     url = "https://github.com/agileup/"
 [[params.social]]
     name = "Twitter"
-    icon = "fa-twitter"
+    icon = "fab fa-twitter"
     weight = 2
     url = "https://twitter.com/akamk87/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa-linkedin"
+    icon = "fab fa-linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/agileup/"
 [[params.social]]
     name = "Blogger"
-    icon = "fa-blogger"
+    icon = "fab fa-blogger"
     weight = 4
     url = "http://agileupriser.blogspot.com/"
 [[params.social]]
     name = "YouTube"
-    icon = "fa-youtube"
+    icon = "fab fa-youtube"
     weight = 5
     url = "https://www.youtube.com/channel/UCNeH2oVve26osPXan0H3k-g"
 [[params.social]]
     name = "Instagram"
-    icon = "fa-instagram"
+    icon = "fab fa-instagram"
     weight = 6
     url = "https://www.instagram.com/allthesame_ko/"
 
