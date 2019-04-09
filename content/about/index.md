@@ -31,6 +31,22 @@ March, 2006 - February, 2012
 
 ### WORK EXPERIENCE  
 
+**Software Engingger, Freelancer**
+Self-Employed, Seoul, Korea  
+September, 2018 - Present
+
+- Analyze huge mobility data provided by government using Golang
+- Launch a few ecommerce site based on wordpress with AWS Elastic Beanstalk
+- Implemented mobile application with Flutter
+
+**Software Engineer, Freelancer**  
+Self-Employed, San Jose, CA  
+January - July, 2018
+
+- Initial set up for development and deploy process with git, jira, slack
+- Handle multiple projects using docker
+- Design new query language for data streaming, especially fetching past and future data at once
+
 **Tech Leader of Back-end**  
 Toss Lab, Inc. <a href="https://www.jandi.com/" target="_blank">JANDI</a>, Seoul, Korea  
 June, 2014 - December, 2017  

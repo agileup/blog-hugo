@@ -66,10 +66,14 @@ disqusShortname = "agileup" # Enable or disable Disqus
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
+    name = "Tech"
     weight = 1
     url  = "/posts/"
 [[menu.main]]
-    name = "About"
+    name = "Note"
     weight = 2
+    url = "/notes/"
+[[menu.main]]
+    name = "About"
+    weight = 3
     url = "/about/"
