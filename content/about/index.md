@@ -31,7 +31,7 @@ March, 2006 - February, 2012
 
 ### WORK EXPERIENCE  
 
-**Software Engingger, Freelancer**
+**Software Engineer, Freelancer**  
 Self-Employed, Seoul, Korea  
 September, 2018 - Present
 
