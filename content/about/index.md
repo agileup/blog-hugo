@@ -5,7 +5,6 @@ layout: "about"
 draft: false
 ---
 
-***
 
 ## MINKI CHOI
 

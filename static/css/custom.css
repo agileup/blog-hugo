@@ -8,6 +8,9 @@ body {
 }
 
 /* About */
+article.about header {
+    display: none;
+}
 article.about h3 {
     text-decoration: underline;
 }
