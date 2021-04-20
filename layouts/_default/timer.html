@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+    <title>Timer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="simple, easy-to-use online countdown timer based on E.gg timer" />
+    <meta name="keywords" content="countdown, count, down, timer, productivity, time, online countdown, online timer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="mobileoptimized" content="0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="title" content="Timer" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/timer.css" type="text/css" media="screen" title="Normal"/>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <!-- <link rel="apple-touch-icon" href="/images/apple-touch-icon.png"/>  -->
+</head>
+<body>
+    <div id="wrapper">
+        <div id="progress"></div>
+        <div id="static"></div>
+    </div>
+    <div id="textWrapper">
+        <div id="progressText"></div>
+    </div>
+    <div id="timerWrapper">
+        <div class="quantity">
+            <a href="#" class="quantity__minus"><span>-</span></a>
+            <input id="timerInput" name="quantity" type="text" class="quantity__input" value="10">
+            <a href="#" class="quantity__plus"><span>+</span></a>
+        </div>
+    </div>
+    <div id="controlWrapper" class="reset">
+        <div id="start"><i class="fas fa-play"></i></div>
+        <div id="reset"><i class="fas fa-sync-alt"></i></div>
+    </div>
+    
+    <script src="/scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="/scripts/time.min.js" type="text/javascript"></script>
+    <script src="/scripts/util.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        let ing = false;
+        const start = $('#start');
+        const reset = $('#reset');
+        reset.hide();
+
+        // https://codepen.io/booom/pen/MqBjpL
+        const input = $('.quantity__input');
+        const minus = $('.quantity__minus');
+        const plus = $('.quantity__plus');
+
+        start.click(function(e) {
+            e.preventDefault();
+            start_action();
+        });
+        reset.click(function(e) {
+            e.preventDefault();
+            reset_action();
+        });
+        minus.click(function(e) {
+            e.preventDefault();
+            minus_action();
+        });
+        plus.click(function(e) {
+            e.preventDefault();
+            plus_action();
+        });
+        
+        const plus_action = () => {
+            let value = input.val();
+            value = Number(value) + 5;
+            input.val(value);
+        };
+        const minus_action = () => {
+            let value = input.val();
+            if (value > 5) {
+                value = Number(value) - 5;
+            }
+            input.val(value);
+        };
+        const start_action = () => {
+            if (ing) {
+                return;
+            }
+
+            start.hide();
+            reset.show();
+            const value = input.val();
+            if (!value) {
+                alert("empty");
+                input.focus();
+                return;
+            }
+            const now = new Date().getTime();
+            Egg.startTime = now;
+            Egg.endTime = now + value*1000;
+            
+            Egg.start();
+            $("#timerWrapper").hide();
+            $("#textWrapper").show();
+            ing = true;
+        };
+        const reset_action = () => {
+            Egg.reset();
+            $("#textWrapper").hide();
+            $("#timerWrapper").show();
+            ing = false;
+            
+            reset.hide();
+            start.show();
+        };
+        
+        /*
+        sequence: [{label: "Rest!", duration: 10}, {label: "Push it!", duration: 20}]
+        */
+        Egg.defaultText = "timer";
+        Egg.volume = 0.5;
+        Egg.canAlert = false;
+        
+        let value = null;
+        document.onkeydown = function(event) {
+            switch (event.keyCode) {
+                case 37: // left
+                case 40: // down
+                    minus_action();
+                    break;
+                case 38: // up
+                case 39: // right
+                    plus_action();
+                    break;
+                case 13: // enter
+                case 32: // space
+                    start_action();
+                    break;
+                case 27:
+                    reset_action();
+                    break;
+            }
+        };
+        
+    </script>
+        const start = $('#start');
+        const reset = $('#reset');
+</body>
+</html>
